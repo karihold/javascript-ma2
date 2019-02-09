@@ -1,15 +1,17 @@
 //MODULE ASSIGNMENT 2 - LEVEL 1
 //1. Create a function that displays prototypal inheritance
-function Animal() {
-    this.type = "Cat";
+function Animal(name, age) {
+    this.name = name;
+    this.age = age;
 }
 
-Animal.prototype.animalType = function () {
+Animal.prototype.animalType = function (type) {
+    this.type = type;
     console.log("I am a " + this.type);
 };
 
-var dog = new Animal();
-dog.animalType();
+var dog = new Animal("Spot", 4);
+dog.animalType("Dog");
 
 
 //2. Create an array of numbers from 1 - 10; slice the 5th number in the array
