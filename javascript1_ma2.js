@@ -13,12 +13,10 @@ Animal.prototype.animalType = function (type) {
 var dog = new Animal("Spot", 4);
 dog.animalType("Dog");
 
-
 //2. Create an array of numbers from 1 - 10; slice the 5th number in the array
 
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var fifthNumber = numbers.slice(4, 5);
-
 
 //3. Delete the last number in the array that you created above.
 numbers.pop();
@@ -53,8 +51,7 @@ deleteArrayBtn.addEventListener("click", function () {
 var persons = [
     { name: "Frank", age: 30, sex: "Male" },
     { name: "Annelise", age: 36, sex: "Female" },
-    { name: "Wes", age: 22, sex: "Male" },
-    { name: "Laurel", age: 22, sex: "Female" },
+    { name: "Wes", age: 22, sex: "Male" }
 ];
 
 function filterByName(person) {
