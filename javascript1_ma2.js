@@ -69,7 +69,7 @@ console.log(wes);
 
 function logToday() {
     var d = new Date();
-    var dateString = d.getDate() + ". " + d.getMonth() + ". " + d.getFullYear();
+    var dateString = d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear();
     console.log("Today is " + dateString);
 }
 
