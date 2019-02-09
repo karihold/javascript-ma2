@@ -35,7 +35,7 @@ console.log(bananaString);
 
 //5. Create an array and a button. The array should contain 4 football clubs names. When the button is clicked, remove all elements out of the array that we just created. There after add in 4 names of cars inside that array. Log it to the console.
 
-var deleteArrayBtn = document.getElementById("delete-array-btn");
+var deleteArrayBtn = document.getElementById("array-btn");
 var footballClubs = ["Manchester United", "Liverpool", "Arsenal", "Tottenham"];
 
 deleteArrayBtn.addEventListener("click", function () {
@@ -69,7 +69,7 @@ console.log(wes);
 
 function logToday() {
     var d = new Date();
-    var dateString = d.getDate() + ". " + d.getMonth() + ". " d.getFullYear();
+    var dateString = d.getDate() + ". " + d.getMonth() + ". " + d.getFullYear();
     console.log("Today is " + dateString);
 }
 
